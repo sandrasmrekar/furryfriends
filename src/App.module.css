@@ -1,0 +1,12 @@
+.wrapper {
+  padding: 20px;
+}
+
+.header {
+  color: var(--primary);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgb(19, 46, 109, 0.1);
+  margin-bottom: 50px;
+}

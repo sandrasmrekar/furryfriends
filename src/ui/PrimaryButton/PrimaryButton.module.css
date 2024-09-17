@@ -1,0 +1,24 @@
+.button,
+.buttonDanger {
+  background-color: var(--primary);
+  color: white;
+  border-radius: 8px;
+  border-width: 0;
+  cursor: pointer;
+  font-size: var(--font-size-normal);
+  line-height: 20px;
+  margin: 0;
+  padding: 5px 12px;
+  text-align: center;
+}
+
+.button:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+  box-shadow: none;
+}
+
+.buttonDanger {
+  background-color: var(--danger);
+  color: white;
+}

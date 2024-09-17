@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 1em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--background-primary);
+}
+
+button {
+  font-family: "Poppins", sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+:root {
+  --font-size-normal: 14px;
+  --font-size-small: 12px;
+  --danger: rgb(236, 6, 50);
+  --primary: rgb(19, 46, 109);
+  --secondary: rgb(134, 171, 245);
+  --background-secondary: rgb(238, 242, 250);
+  --background-primary: rgb(249, 250, 253);
+}
+
+body.modal-open {
+  overflow: hidden;
+}
+
+p {
+  font-size: var(--font-size-normal);
+}

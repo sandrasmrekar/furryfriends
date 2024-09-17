@@ -1,0 +1,20 @@
+.wrapper {
+  margin-bottom: 15px;
+}
+
+.labelGroup {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.label {
+  font-size: var(--font-size-normal);
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.error {
+  color: var(--danger);
+  font-size: var(--font-size-small);
+}
