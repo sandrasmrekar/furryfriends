@@ -1,0 +1,23 @@
+.button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  border: 0px solid transparent;
+  background-color: rgba(100, 77, 237, 0.08);
+  border-radius: 50%;
+  transition: all 0.2s linear;
+  position: relative;
+  width: 40px;
+  height: 40px;
+}
+
+.button:hover {
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+  cursor: pointer;
+}
+
+.danger {
+  background-color: #ffe0e0;
+}

@@ -47,6 +47,7 @@ const ImageInput = (props: ImageInputProps) => {
   return (
     <div className={styles.container}>
       <label
+        htmlFor={name}
         onDrop={handleFileDrop}
         className={styles.label}
         onDragOver={handleDragOver}

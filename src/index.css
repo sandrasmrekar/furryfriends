@@ -19,17 +19,27 @@ code {
 :root {
   --font-size-normal: 14px;
   --font-size-small: 12px;
-  --danger: rgb(236, 6, 50);
+  --danger: #b20000;
   --primary: rgb(19, 46, 109);
   --secondary: rgb(134, 171, 245);
   --background-secondary: rgb(238, 242, 250);
   --background-primary: rgb(249, 250, 253);
+  --field: rgb(243, 244, 246);
+  --field-focus: #edf2f7;
 }
 
 body.modal-open {
   overflow: hidden;
 }
 
-p {
+p,
+input,
+textarea,
+select {
+  font-family: "Poppins", sans-serif;
   font-size: var(--font-size-normal);
+}
+
+h2 {
+  color: var(--primary);
 }
