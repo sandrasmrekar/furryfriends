@@ -108,6 +108,7 @@ function AddEditForm({ onClose, initialValues, isEdit }: AddEditFormProps) {
             value={birthDate}
             type="date"
             as={Input}
+            validate={validators.isRequired}
             onChange={handleBirthDateChange}
           />
           <FormField

@@ -21,6 +21,14 @@ const CatList = () => {
     setShowModal(false);
   };
 
+  if (!storedCats.length) {
+    return (
+      <p className={styles.emptyMessage}>
+        Add furry friends to your collection 🐱
+      </p>
+    );
+  }
+
   return (
     <div>
       <div className={styles.cats}>

@@ -19,6 +19,7 @@ code {
 :root {
   --font-size-normal: 14px;
   --font-size-small: 12px;
+  --font-size-large: 16px;
   --danger: #b20000;
   --primary: rgb(19, 46, 109);
   --secondary: rgb(134, 171, 245);

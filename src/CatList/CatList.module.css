@@ -52,6 +52,12 @@
   justify-content: flex-end;
 }
 
+.emptyMessage {
+  display: flex;
+  justify-content: center;
+  font-size: var(--font-size-large);
+}
+
 @media (max-width: 600px) {
   .card {
     width: 100%;
