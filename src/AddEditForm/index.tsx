@@ -110,6 +110,7 @@ function AddEditForm({ onClose, initialValues, isEdit }: AddEditFormProps) {
             as={Input}
             validate={validators.isRequired}
             onChange={handleBirthDateChange}
+            max={new Date().toISOString().split("T")[0]}
           />
           <FormField
             name="bio"
